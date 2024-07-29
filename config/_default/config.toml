@@ -5,21 +5,21 @@ theme = "DoIt"
 
 [menu]
   [[menu.main]]
-    identifier = "게시글"
+    identifier = "posts"
     # you can add extra information before the name (HTML format is supported), such as icons
     pre = ""
     # you can add extra information after the name (HTML format is supported), such as icons
     post = ""
-    name = "Posts"
+    name = "게시글"
     url = "/posts/"
     # title will be shown when you hover on this menu link
     title = ""
     weight = 1
   [[menu.main]]
-    identifier = "카테고리"
+    identifier = "categories"
     pre = ""
     post = ""
-    name = "Categories"
+    name = "카테고리"
     url = "/categories/"
     title = ""
     weight = 2
