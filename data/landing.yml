@@ -1,0 +1,43 @@
+# Hero
+hero:
+  enable: true
+  weight: 10
+  template: hero
+
+#  titleLogo:
+#    path: "images"
+#    filename: "logo.png"
+#    alt: "Cruru Logo"
+#    height: 100px
+
+  title: 크루루 개발 Blog
+  subtitle: |
+    소중한 팀원을 뽑는 모집 과정은 중요하죠.
+    <br>
+    그 모든 과정을 함께하는 편리한 서비스를 만들기 위한
+    <br>
+    저희 크루루 팀원들의 고민 이야기를 풀어봤습니다!
+
+  image:
+    path: "images" # path to image under configured assets directory. default 'images'
+    filename: "cover1.png" # filename of your hero image (including file extension)
+    alt: "cover" # Optional but recommended
+
+  ctaButton:
+    icon: rocket_launch
+    btnText: "글 보러가기"
+    url: "/docs"
+  cta2Button:
+    icon: construction
+    btnText: "크루루 이용해보기"
+    url: "https://www.cruru.kr"
+
+features:
+  enable: true
+  weight: 20
+
+  title: 크루루 팀원들
+  subtitle: 저희 크루루는 백엔드 5명, 프론트엔드 3명으로 이루어져 있습니다.
+
+image_compare:
+  enable: false
