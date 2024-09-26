@@ -1,0 +1,35 @@
+baseURL = "http://blog.cruru.kr/"
+languageCode = "ko-kr"
+title = "Team Cruru's Develop Blog"
+
+[module]
+    [[module.imports]]
+        path = "github.com/colinwilson/lotusdocs"
+        disable = false
+    [[module.imports]]
+        path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
+        disable = false
+
+
+[menu]
+    [[menu.primary]]
+        name = "Infra"
+        url = "/docs/infra/"
+        identifier = "docs"
+        weight = 10
+
+    [[menu.primary]]
+        name = "Backend"
+        url = "/docs/backend/"
+        identifier = "showcase"
+        weight = 20
+
+    [[menu.primary]]
+        name = "Frontend"
+        url = "/Frontend/Frontent/"
+        identifier = "community"
+        weight = 30
+
+
+[params.footer]
+copyright = '© :YEAR: 우아한테크코스 Cruru. Built with [**Lotus Docs**](https://github.com/colinwilson/lotusdocs)'
