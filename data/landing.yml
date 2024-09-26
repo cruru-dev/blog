@@ -24,7 +24,7 @@ hero:
   ctaButton:
     icon: rocket_launch
     btnText: "글 보러가기"
-    url: "/docs"
+    url: "/blog/docs"
   cta2Button:
     icon: construction
     btnText: "크루루 이용해보기"

@@ -1,4 +1,4 @@
-baseURL = "https://dobby-kim.github.io/"
+baseURL = "https://blog.cruru.kr/blog/"
 languageCode = "ko-kr"
 title = "Team Cruru's Develop Blog"
 
@@ -19,19 +19,19 @@ disable = false
 [menu]
 [[menu.primary]]
 name = "Infra"
-url = "/docs/infra/"
+url = "/blog/docs/infra/"
 identifier = "docs"
 weight = 10
 
 [[menu.primary]]
 name = "Backend"
-url = "/docs/backend/"
+url = "/blog/docs/backend/"
 identifier = "showcase"
 weight = 20
 
 [[menu.primary]]
 name = "Frontend"
-url = "/docs/frontend/"
+url = "/blog/docs/frontend/"
 identifier = "community"
 weight = 30
 
