@@ -1,4 +1,4 @@
-baseURL = "http://blog.cruru.kr/"
+baseURL = "https://dobby-kim.github.io/blog/"
 languageCode = "ko-kr"
 title = "Team Cruru's Develop Blog"
 
@@ -10,6 +10,11 @@ disable = false
 path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
 disable = false
 
+[frontmatter]
+    author = ['authors']
+    series = ['series']
+    categories = ['categories']
+    date = ['date']
 
 [menu]
 [[menu.primary]]
