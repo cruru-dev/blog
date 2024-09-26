@@ -1,6 +1,10 @@
-baseURL = "https://dobby-kim.github.io/blog/"
+baseURL = "https://blog.cruru.kr/"
 languageCode = "ko-kr"
-title = "Team Cruru's Develop Blog"
+title = "팀 크루루의 개발 이야기"
+author = "authors"
+category = "categories"
+tag = "tags"
+series = "series"
 
 [module]
 [[module.imports]]
@@ -10,30 +14,25 @@ disable = false
 path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
 disable = false
 
-[frontmatter]
-    author = ['authors']
-    series = ['series']
-    categories = ['categories']
-    date = ['date']
-
 [menu]
 [[menu.primary]]
 name = "Infra"
-url = "/blog/docs/infra/"
+url = "/docs/infra/"
 identifier = "docs"
 weight = 10
 
 [[menu.primary]]
 name = "Backend"
-url = "/blog/docs/backend/"
+url = "/docs/backend/"
 identifier = "showcase"
 weight = 20
 
 [[menu.primary]]
 name = "Frontend"
-url = "/blog/docs/frontend/"
+url = "/docs/frontend/"
 identifier = "community"
 weight = 30
+
 
 [params.social]
 github = 'woowacourse-teams/2024-cruru'
@@ -44,7 +43,7 @@ themeColor = 'magenta'
 prismTheme = 'lucario'
 
 [params.footer]
-copyright = '© :YEAR: 우아한테크코스 Cruru. Built with [**Lotus Docs**](https://github.com/colinwilson/lotusdocs)'
+copyright = '© :YEAR: 우아한테크코스 6기 Cruru. <br><br>Built with [**Lotus Docs**](https://github.com/colinwilson/lotusdocs)'
 
 [markup.goldmark.renderer]
 unsafe = true
