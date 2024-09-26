@@ -22,6 +22,14 @@ const userConfig: UserConfig = {
             {
                 database_id: 'b7b1816c05ec464391c8c111fa242985',
                 target_folder: '.'
+            },
+            {
+                database_id: '10d1e50d803f802ba4bbed886d3c3795',
+                target_folder: './content/docs/Backend'
+            },
+            {
+                database_id: '10d1e50d803f80a887d1cb5f3771905f',
+                target_folder: './content/docs/Infra'
             }
         ],
     }

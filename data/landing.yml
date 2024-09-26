@@ -4,13 +4,13 @@ hero:
   weight: 10
   template: hero
 
-  titleLogo:
-    path: "images"
-    filename: "logo.png"
-    alt: "Cruru Logo"
-    height: 100px
+#  titleLogo:
+#    path: "images"
+#    filename: "logo.png"
+#    alt: "Cruru Logo"
+#    height: 100px
 
-  title: "크루루 개발 Blog"
+  title: 크루루 개발 Blog
   subtitle: |
     소중한 팀원을 뽑는 모집 과정은 중요하죠.
     <br>
@@ -36,49 +36,6 @@ features:
 
   title: 크루루 팀원들
   subtitle: 저희 크루루는 백엔드 5명, 프론트엔드 3명으로 이루어져 있습니다.
-
-  # items:
-  #   - title: 8주간의 스터디
-  #     icon: event_available
-  #     description: ddd
-  #     ctaLink:
-  #       text: github
-  #       url: /Dobby-Kim/
-
-  #   - title: 스터디 주제
-  #     icon: book
-  #     description: 차근차근 배울 수 있는 순서로 멘토들이 주제들을 준비했어요. 각 주제는 이론과 실습으로 구성되어 있어요.
-  #     ctaLink:
-  #       text: github
-  #       url: https://github.com/Dobby-Kim
-
-  #   - title: 진행 방식
-  #     icon: group
-  #     description: 정해진 주제를 각자 일주일 동안 공부하고 스꾸딩 노션 페이지에 정리해요. 스터디 시간에는 각자 공부한 내용을 공유해요.
-  #     ctaLink:
-  #       text: github
-  #       url: https://github.com/Dobby-Kim
-
-  #   - title: 점진적인 프로젝트
-  #     icon: trending_up
-  #     description: 스터디를 통해 배운 내용을 실습할 수 있는 미니 프로젝트를 진행해요. 8주동안 이어서 진행되니까, 이전 주차 내용을 놓치지 않도록 꾸준히 따라와주세요.
-  #     ctaLink:
-  #       text: github
-  #       url: https://github.com/Dobby-Kim
-
-  #   - title: 권장 사항
-  #     icon: lightbulb
-  #     description: 스터디 내용들은 프로그래밍 언어를 하나쯤 배워본 사람들이 따라올 수 있게 준비되어 있어요. 프로그래밍 언어 경험이 없다면, JavaScript를 미리 공부하는 것을 추천해요.
-  #     ctaLink:
-  #       text: github
-  #       url: https://github.com/Dobby-Kim
-
-  #   - title: 궁금한 점이 생기면
-  #     icon: help
-  #     description: 스터디 중에 궁금한 점이 생기면, Teams 채널에 자유롭게 질문해주세요. 멘토들이 최대한 도와드릴 거예요!
-  #     ctaLink:
-  #       text: github
-  #       url: https://github.com/Dobby-Kim
 
 image_compare:
   enable: false
