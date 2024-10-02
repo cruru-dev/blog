@@ -1,10 +1,15 @@
 baseURL = "https://blog.cruru.kr/"
 languageCode = "ko-kr"
 title = "팀 크루루의 개발 이야기"
-author = "authors"
-category = "categories"
-tag = "tags"
-series = "series"
+
+googleAnalyics = "G-B3P4MC2ELV"
+enableRobotsTXT=true
+
+[taxonomies]
+    author = 'author'
+    category = 'categories'
+    keywords = 'keywords'
+    series = 'series'
 
 [module]
 [[module.imports]]
@@ -33,17 +38,21 @@ url = "/docs/frontend/"
 identifier = "community"
 weight = 30
 
-
 [params.social]
 github = 'woowacourse-teams/2024-cruru'
 
 [params.docs]
 pathName = 'docs'
 themeColor = 'magenta'
-prismTheme = 'lucario'
+prism = true
+prismTheme = "lucario"
 
 [params.footer]
 copyright = '© :YEAR: 우아한테크코스 6기 Cruru. <br><br>Built with [**Lotus Docs**](https://github.com/colinwilson/lotusdocs)'
+
+[params.flexsearch]
+enabled             = true
+tokenize            = "full"
 
 [markup.goldmark.renderer]
 unsafe = true

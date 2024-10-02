@@ -4,13 +4,13 @@ hero:
   weight: 10
   template: hero
 
-#  titleLogo:
-#    path: "images"
-#    filename: "logo.png"
-#    alt: "Cruru Logo"
-#    height: 100px
+  titleLogo:
+    path: "images/logos"
+    filename: "title_logo.png"
+    alt: "Cruru Logo"
+    height: 70px
 
-  title: 크루루 개발 Blog
+  title: "크루루 개발 Blog"
   subtitle: |
     소중한 팀원을 뽑는 모집 과정은 중요하죠.
     <br>
